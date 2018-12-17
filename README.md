@@ -1,5 +1,3 @@
-# PHP-Symfony
-PHP/Symfony-学习笔记
 #Symfony:
 -	findOneBy(); //获取一条
 -	findAll(); //获取所有
