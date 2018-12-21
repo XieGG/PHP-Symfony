@@ -8,3 +8,5 @@
 	getDoctrine();
 	getManager('rtu'); //获取对象的控制器
 	getRepository('RtuBundle:Device'); //获取类的数据库
+	get('admin.department'); //获取service服务
+
