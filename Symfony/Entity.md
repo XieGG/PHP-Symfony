@@ -1,5 +1,5 @@
 ## 关于Entity的东西
-###参数解释
+### 参数解释
 
     /**
      * @var string
@@ -12,7 +12,7 @@
 	options={"comment": "名字"} //注释
  	@Assert\NotBlank(message="名字不能为空") //提示信息
 
-###自动获取时间模板
+### 自动获取时间模板
 	
     /**
      * @ORM\PrePersist()
