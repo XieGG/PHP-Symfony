@@ -11,3 +11,29 @@
 	php bin/console doctrine:schema:update --force --em=customer //更新数据表
 	git config --global credential.helper store //免除密码
 	php bin/console doctrine:schema:update --force --em=库名 //更新Entity表
+
+### Git 本地文件提交 Github
+在Github上创建项目
+
+本地文件夹 创建 .git 文件
+>$ git init
+
+
+将所有文件添加到本地仓库
+>$ git add .
+
+提交文件注释
+>$ git commit -m "注释"
+
+关联Github仓库 (只需要关联一次)
+>git remote add origin https://github.com/XieGG/Study.git
+
+上传本地代码
+>git push origin master
+
+下拉仓库代码
+>git pull origin master
+
+
+
+
