@@ -4,9 +4,12 @@
 	findAll(); //获取所有
 	findBy(['createAt'=>'asc']); //排序
 	$request->query->get('...'); //获取到数据
-	$this->getDoctrine()->getManager('rtu')->getRepository('RtuBundle:Device')->findOneBy(['address'=>$text['addr']]); //查库 查找数据
+
+> $em = $this->getDoctrine()->getManager('rtu')->getRepository('RtuBundle:Device')->findOneBy(['address'=>$text['addr']]);
+
 	getDoctrine();
-	getManager('rtu'); //获取对象的控制器
-	getRepository('RtuBundle:Device'); //获取类的数据库
-	get('admin.department'); //获取service服务
+	getManager('rtu'); //选择数据库(多数据库使用)
+	getRepository('RtuBundle:Device'); //获数据表
+	findOneBy(['表'=>$name]); //查询 表中的字段 和 变量字段相同的数据
+	$em->getName() //获取服务参数
 
