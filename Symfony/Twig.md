@@ -3,4 +3,5 @@
 	{{ hello|raw }} //变量不被转义
 	{{ app.request.query.get('address') }} //获取所有GET参数
 	{{ ...|replace({'0':'正常','1':'停电'}) }} //代替
-	{{ ...|date('Y-m-d H:i:s') }} //时间戳转为时间	
+	{{ ...|date('Y-m-d H:i:s') }} //时间戳转为时间.
+	{{ ...|date("Y-m-d H:i:s", "Asia/Shanghai") }} //规定时间戳 地区	
