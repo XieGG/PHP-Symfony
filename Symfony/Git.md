@@ -17,7 +17,10 @@
 >$ php bin/console doctrine:generate:entity  
 
 更新Entity表
->$ php bin/console doctrine:schema:update --force --em=库名 
+>$ php bin/console doctrine:schema:update --force (--em=库名) 
+	
+生成get set方法
+>$ php bin/console doctrine:generate:entities GovernmentBundle:GzBgzyjgbshzfb
 
 ### Git 本地文件提交 Github
 在Github上创建项目
