@@ -9,6 +9,7 @@
 	- [Form](Symfony/Form.md)
 	- [FormType](Symfony/FormType.md)完整的Type
 - [查询功能](Symfony/Check.md)
+- [DataFixtures](Symfony/Fixtures.md)
 
 ### PHP
 - [PHP](PHP/PHP.md)基础函数
