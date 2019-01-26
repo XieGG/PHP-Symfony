@@ -15,4 +15,5 @@
 - [PHP](PHP/PHP.md)基础函数
 ### MySQL
 - [MySQL](MySQL/MySQL.md)基础语句
-
+- MySQL错误
+	- [MySQL](MySQL/zerotime.md)'0000-00-00 00:00:00' 时间格式报错
