@@ -19,4 +19,4 @@
 - MySQL错误
 	- [MySQL](MySQL/zerotime.md)'0000-00-00 00:00:00' 时间格式报错
 ### Javascript
-- [JS](JS/javascript.md)基础
+- [JS](JS/Javascript.md)基础
