@@ -75,7 +75,7 @@
 >$ cd /etc/nginx/sites-enabled //启用的站点目录(方便快速启用,停用)     
 >$ sudo ln -s /etc/nginx/sites-available/law law //和 sites-available 的站点配置文件进行软连接   
 >$ cd /etc/hosts //配置hosts      
-Linux 下的权限分配
+Linux 下的权限分配    
 >$ HTTPDUSER=$(ps axo user,comm | grep -E '[a]pache|[h]ttpd|[_]www|[w]ww-data|[n]ginx' | grep -v root | head -1 | cut -d\  -f1)         
 >$ sudo setfacl -dR -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var    
 >$ sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX var     
