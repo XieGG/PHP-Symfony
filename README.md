@@ -17,8 +17,7 @@
 ### MySQL
 - [MySQL](MySQL/MySQL.md)基础语句
 - [MySQL](MySQL/Join.md)连接查询语句
-- MySQL错误
-	- [MySQL](MySQL/zerotime.md)'0000-00-00 00:00:00' 时间格式报错
+- [MySQL & Ubuntu(Linux)](MySQL/error.md)一些错误
 ### Javascript
 - [JS](JS/Javascript.md)基础
 ### Ubuntu18.04
