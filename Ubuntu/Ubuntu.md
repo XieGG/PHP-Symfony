@@ -1,5 +1,5 @@
-### Ubuntu 基本环境
-### 创建软件快捷方式
+### Ubuntu 小技巧
+### 创建软件桌面快捷方式
 	1. 进入 /usr/share/applications/
 	2. 创建 name.desktop文件
 	3. 写入代码，保存(去掉中文)

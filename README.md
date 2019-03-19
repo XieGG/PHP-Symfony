@@ -22,6 +22,6 @@
 ### Javascript
 - [JS](JS/Javascript.md)基础
 ### Ubuntu18.04
-- [Ubuntu](Ubuntu/Ubuntu.md)基本环境
+- [Ubuntu](Ubuntu/Ubuntu.md)小技巧
 - [Ubuntu](Ubuntu/error.md)错误解决
  
