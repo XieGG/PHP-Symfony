@@ -29,3 +29,6 @@ MySQL 5.7.5和up实现了对功能依赖的检测。如果启用了only_full_gro
     
     mysql> set global sql_mode='STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION'; //去掉ONLY_FULL_GROUP_BY
     Query OK, 0 rows affected (0.00 sec)
+### 上面的方法 只是临时修改,永久修改方法:
+> 需要重启mysql服务:修改mysql的配置文件my.cnf,添加以下参数 
+> sql_mode=ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION //实际是去除NO_ZERO_IN_DATE,NO_ZERO_DATE(根据需求去掉参数)

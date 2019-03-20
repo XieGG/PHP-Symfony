@@ -17,3 +17,20 @@
 	原因是包管理器没有正确关闭。需要重启计算机或者重新打开终端输入：
 	sudo rm /var/lib/dpkg/lock
 	sudo dpkg --configure -a
+### Ubuntu(Linux) 下 PHP导入 Excel 出错 
+> 错误信息：Attempted to load class "PHPExcel_Reader_excel2007" from the global namespace.       
+
+原因:Ubuntu(Linux)大小写敏感，调用的时候用excel2007找不到类
+
+    解决: 修改类名的大小写 出处：IOFactory.php
+    
+        private static $autoResolveClasses = array(
+                'Excel2007',
+                'Excel5',
+                'Excel2003XML',
+                'OOCalc',
+                'SYLK',
+                'Gnumeric',
+                'HTML',
+                'CSV',
+            );

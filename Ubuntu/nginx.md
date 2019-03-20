@@ -2,11 +2,11 @@
 ##
 #### 安装PHP,MySQL
 >$ sudo apt-get update //更新源    
->$ sudo apt-get install php //安装PHP(可以安装需要的扩展)     
->$ php -v //查看安装的PHP版本
->$ sudo apt-get install mysql-server //安装MySQL
->$ sudo apt-get install mysql-client 
->$ mysql -u root -p //进入MySQL
+>$ sudo apt-get install php //安装PHP(可以安装需要的扩展)      
+>$ php -v //查看安装的PHP版本  
+>$ sudo apt-get install mysql-server //安装MySQL  
+>$ sudo apt-get install mysql-client    
+>$ mysql -u root -p //进入MySQL   
 #### 安装Nginx
 >$ sudo apt-get update //更新源    
 >$ sudo apt-get install nginx //安装Nginx   
