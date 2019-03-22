@@ -23,5 +23,6 @@
 ### Ubuntu18.04
 - [Ubuntu](Ubuntu/Ubuntu.md)小技巧
 - [Ubuntu](Ubuntu/error.md)错误解决
-- [Ubuntu](Ubuntu/nginx.md)配置php+nginx+mysql环境
+- [Ubuntu](Ubuntu/nginx.md)配置php+nginx+mysql环境(Symfony)     
+  - [Ubuntu](Ubuntu/nginx_php.md)配置nginx一般的站点
  
