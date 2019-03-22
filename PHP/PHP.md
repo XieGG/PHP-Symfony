@@ -22,7 +22,14 @@ file_put_contents() 函数把一个字符串写入文件中
                 LOCK_EX
     context	    可选。规定文件句柄的环境。
     context     是一套可以修改流的行为的选项。若使用 null，则忽略。
-    
+str_replace() 函数以其他字符替换字符串中的一些字符（区分大小写）
+> str_replace(find,replace,string,count)
+
+    参数	    描述
+    find	    必需。规定要查找的值。
+    replace	    必需。规定替换 find 中的值的值。
+    string	    必需。规定被搜索的字符串。
+    count	    可选。对替换数进行计数的变量。  
 ### 数组相关
 array_merge() 函数把一个或多个数组合并为一个数组
 > array_merge(array1,array2,array3...)      
