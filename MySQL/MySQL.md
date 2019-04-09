@@ -6,5 +6,11 @@
 	UPDATE 表名 set 列名 = replace(列名,'值','更新后的值') where 列名 like '%值%'; //更新数据(包含 值)
 	DELETE FROM 表名称 WHERE 列名称 = 值 //删除数据
 	
-### SQL 修改 数据中 某个字段 中 包含某个值
+### MySQL 修改 数据中 某个字段 中 包含某个值
 > update 表名 SET 字段名 = REPLACE( 字段名, '需要更新的值', '更新之后的值' ) where 字段名 like '%需要更新的值%';
+### MySQL 导入 导出 SQL
+#### 导出数据:
+> mysqldump -u root -p --default-character-set=utf8 databasename > path/databaseName.sql            
+> mysqldump -u root -p --default-character-set=utf8 databasename tableName > path/tableName.sql
+#### 导入数据:
+> mysql -u root -p --default-character-set=utf8 databasename < path/tableName.sql

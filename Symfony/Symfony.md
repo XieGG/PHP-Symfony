@@ -12,4 +12,5 @@
 	getRepository('RtuBundle:Device'); //获数据表
 	findOneBy(['表'=>$name]); //查询 表中的字段 和 变量字段相同的数据
 	$em->getName() //获取服务参数
+	findby([level => [1,2]]) //可以使用数组
 
