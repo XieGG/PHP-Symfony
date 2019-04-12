@@ -21,3 +21,7 @@
 		Version=1.0
 		 
 		Type=Application
+		
+### 多个终端合并在一个窗口
+    组合键: ctrl+shift+t
+    
