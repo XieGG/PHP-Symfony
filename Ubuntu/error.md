@@ -1,7 +1,7 @@
 ### Ubuntu 的一些错误解决
 ##
 ### Navicat过期后的恢复，乱码解决
->$ cd //进入/home 目录  
+>$ cd  //进入根目录  
 >$ rm -rf .navicat64/ //删除 navicat64 位
   
 再次重启 navicat 就会重新安装，并重新计时
