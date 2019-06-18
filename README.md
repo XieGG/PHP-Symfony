@@ -25,4 +25,7 @@
 - [Ubuntu](Ubuntu/error.md)错误解决
 - [Ubuntu](Ubuntu/nginx.md)配置php+nginx+mysql环境(Symfony)     
   - [Ubuntu](Ubuntu/nginx_php.md)配置nginx一般的站点
+  
+### Redis
+- [Redis](Redis/Download.md)安装
  
