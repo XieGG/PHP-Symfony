@@ -12,7 +12,7 @@
 [详细参照](https://www.runoob.com/redis/redis-install.html)
 
 ### PHPRedis 扩展 安装
-1.下载phpredis扩展文件
+1.下载phpredis扩展文件[手动下载](https://github.com/phpredis/phpredis/releases)
 > $ git clone https://github.com/phpredis/phpredis.git  
   
 2.移动文件  
