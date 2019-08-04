@@ -13,7 +13,8 @@
 - [Command]()相关
 	- [Command](Symfony/CommandExcle.md)导入Excle表命令
 ### ThinkPHP5.0
-- [ThinkPHP](ThinkPHP/thinkphp.md)基础用法
+- [ThinkPHP](ThinkPHP/Thinkphp.md)基础用法
+- [Doctrine](ThinkPHP/TpDoctrine.md)TP安装使用Doctrine ORM
 ### PHP
 - [PHP](PHP/PHP.md)基础函数
 ### MySQL
