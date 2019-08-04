@@ -106,7 +106,15 @@
     
 #### 命令生成/更新 数据表(不需要操作数据库,自动生成/更新User表(字段))
 > vendor/bin/doctrine orm:schema-tool:update --force
-
+#### 目录结构
+    - tp5
+        - application
+            - entity
+                - User.php
+                - xxx.php
+                - xxx.php
+            - Entity.php
+        - cli-config.php
 #### 补充扩展
 - 具体参考[Doctrine手册](https://www.doctrine-project.org/projects/doctrine-orm/en/2.6/index.html)
 - 命令难记的话可以使用 Tp5 command 自定义命令
